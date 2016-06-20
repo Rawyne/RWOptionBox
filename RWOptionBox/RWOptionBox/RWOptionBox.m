@@ -35,10 +35,13 @@
     if (self = [super init]) {
         _yOffset = 8;
         
+        CGFloat xInset = 5;
+        CGFloat yInset = 3;
+        
         _contentView = contentView;
         
         UIView *container = [[UIView alloc] init];
-        container.bounds = CGRectMake(0, 0, contentView.frame.size.width, contentView.frame.size.height + _yOffset);
+        container.bounds = CGRectMake(0, 0, contentView.frame.size.width + xInset*2, contentView.frame.size.height + yInset*2 + _yOffset);
         self.container = container;
         
         CAShapeLayer *shapeLayer = [CAShapeLayer layer];
@@ -46,7 +49,7 @@
         [container.layer addSublayer:shapeLayer];
         self.shapeLayer = shapeLayer;
         
-        contentView.frame = CGRectMake(0, _yOffset, contentView.frame.size.width, contentView.frame.size.height);
+        contentView.frame = CGRectMake(xInset, _yOffset+yInset, contentView.frame.size.width, contentView.frame.size.height);
         [container addSubview:contentView];
         
         
@@ -88,8 +91,8 @@
     
     anchorPointX = anchorOffsetX / self.container.frame.size.width;
     
-    CGFloat inflectLeft = anchorOffsetX - 4;
-    CGFloat inflectRight = anchorOffsetX + 4;
+    CGFloat inflectLeft = anchorOffsetX - 5;
+    CGFloat inflectRight = anchorOffsetX + 5;
     
     CGFloat minX = 0;
     CGFloat maxX = self.container.frame.size.width;

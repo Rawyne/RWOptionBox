@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "RWOptionBox.h"
+#import "ContentView.h"
 
 @interface ViewController ()
 
@@ -71,7 +72,7 @@
     
     
     CGRect rightRect = [rightBtn convertRect:rightBtn.bounds toView:self.view];
-    RWOptionBox *rightBox = [[RWOptionBox alloc] initWithContentView:[[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 170)]];
+    RWOptionBox *rightBox = [[RWOptionBox alloc] initWithContentView:[[ContentView alloc] initWithFrame:CGRectMake(0, 0, 100, 170)]];
     [rightBox setDisplayView:self.view anchorRect:rightRect alignment:RWOptionBoxAnchorAlignmentRight margin:10];
     self.rightBox = rightBox;
 }
