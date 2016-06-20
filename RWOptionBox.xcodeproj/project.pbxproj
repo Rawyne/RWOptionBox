@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F016B921D179C07009A7089 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F016B911D179C07009A7089 /* main.m */; };
+		2F016B951D179C07009A7089 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F016B941D179C07009A7089 /* AppDelegate.m */; };
+		2F016B981D179C07009A7089 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F016B971D179C07009A7089 /* ViewController.m */; };
+		2F016B9B1D179C07009A7089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F016B991D179C07009A7089 /* Main.storyboard */; };
+		2F016B9D1D179C07009A7089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F016B9C1D179C07009A7089 /* Assets.xcassets */; };
+		2F016BA01D179C07009A7089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F016B9E1D179C07009A7089 /* LaunchScreen.storyboard */; };
+		2F016BAB1D179C07009A7089 /* RWOptionBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F016BAA1D179C07009A7089 /* RWOptionBoxTests.m */; };
+		2F016BB61D179C07009A7089 /* RWOptionBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F016BB51D179C07009A7089 /* RWOptionBoxUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F016BA71D179C07009A7089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F016B851D179C07009A7089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F016B8C1D179C07009A7089;
+			remoteInfo = RWOptionBox;
+		};
+		2F016BB21D179C07009A7089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F016B851D179C07009A7089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F016B8C1D179C07009A7089;
+			remoteInfo = RWOptionBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F016B8D1D179C07009A7089 /* RWOptionBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RWOptionBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F016B911D179C07009A7089 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F016B931D179C07009A7089 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F016B941D179C07009A7089 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F016B961D179C07009A7089 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F016B971D179C07009A7089 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F016B9A1D179C07009A7089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F016B9C1D179C07009A7089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F016B9F1D179C07009A7089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F016BA11D179C07009A7089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F016BA61D179C07009A7089 /* RWOptionBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RWOptionBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F016BAA1D179C07009A7089 /* RWOptionBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWOptionBoxTests.m; sourceTree = "<group>"; };
+		2F016BAC1D179C07009A7089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F016BB11D179C07009A7089 /* RWOptionBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RWOptionBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F016BB51D179C07009A7089 /* RWOptionBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWOptionBoxUITests.m; sourceTree = "<group>"; };
+		2F016BB71D179C07009A7089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F016B8A1D179C07009A7089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F016BA31D179C07009A7089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F016BAE1D179C07009A7089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F016B841D179C06009A7089 = {
+			isa = PBXGroup;
+			children = (
+				2F016B8F1D179C07009A7089 /* RWOptionBox */,
+				2F016BA91D179C07009A7089 /* RWOptionBoxTests */,
+				2F016BB41D179C07009A7089 /* RWOptionBoxUITests */,
+				2F016B8E1D179C07009A7089 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F016B8E1D179C07009A7089 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F016B8D1D179C07009A7089 /* RWOptionBox.app */,
+				2F016BA61D179C07009A7089 /* RWOptionBoxTests.xctest */,
+				2F016BB11D179C07009A7089 /* RWOptionBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F016B8F1D179C07009A7089 /* RWOptionBox */ = {
+			isa = PBXGroup;
+			children = (
+				2F016B931D179C07009A7089 /* AppDelegate.h */,
+				2F016B941D179C07009A7089 /* AppDelegate.m */,
+				2F016B961D179C07009A7089 /* ViewController.h */,
+				2F016B971D179C07009A7089 /* ViewController.m */,
+				2F016B991D179C07009A7089 /* Main.storyboard */,
+				2F016B9C1D179C07009A7089 /* Assets.xcassets */,
+				2F016B9E1D179C07009A7089 /* LaunchScreen.storyboard */,
+				2F016BA11D179C07009A7089 /* Info.plist */,
+				2F016B901D179C07009A7089 /* Supporting Files */,
+			);
+			path = RWOptionBox;
+			sourceTree = "<group>";
+		};
+		2F016B901D179C07009A7089 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F016B911D179C07009A7089 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F016BA91D179C07009A7089 /* RWOptionBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F016BAA1D179C07009A7089 /* RWOptionBoxTests.m */,
+				2F016BAC1D179C07009A7089 /* Info.plist */,
+			);
+			path = RWOptionBoxTests;
+			sourceTree = "<group>";
+		};
+		2F016BB41D179C07009A7089 /* RWOptionBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F016BB51D179C07009A7089 /* RWOptionBoxUITests.m */,
+				2F016BB71D179C07009A7089 /* Info.plist */,
+			);
+			path = RWOptionBoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F016B8C1D179C07009A7089 /* RWOptionBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F016BBA1D179C07009A7089 /* Build configuration list for PBXNativeTarget "RWOptionBox" */;
+			buildPhases = (
+				2F016B891D179C07009A7089 /* Sources */,
+				2F016B8A1D179C07009A7089 /* Frameworks */,
+				2F016B8B1D179C07009A7089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RWOptionBox;
+			productName = RWOptionBox;
+			productReference = 2F016B8D1D179C07009A7089 /* RWOptionBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F016BA51D179C07009A7089 /* RWOptionBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F016BBD1D179C07009A7089 /* Build configuration list for PBXNativeTarget "RWOptionBoxTests" */;
+			buildPhases = (
+				2F016BA21D179C07009A7089 /* Sources */,
+				2F016BA31D179C07009A7089 /* Frameworks */,
+				2F016BA41D179C07009A7089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F016BA81D179C07009A7089 /* PBXTargetDependency */,
+			);
+			name = RWOptionBoxTests;
+			productName = RWOptionBoxTests;
+			productReference = 2F016BA61D179C07009A7089 /* RWOptionBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F016BB01D179C07009A7089 /* RWOptionBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F016BC01D179C07009A7089 /* Build configuration list for PBXNativeTarget "RWOptionBoxUITests" */;
+			buildPhases = (
+				2F016BAD1D179C07009A7089 /* Sources */,
+				2F016BAE1D179C07009A7089 /* Frameworks */,
+				2F016BAF1D179C07009A7089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F016BB31D179C07009A7089 /* PBXTargetDependency */,
+			);
+			name = RWOptionBoxUITests;
+			productName = RWOptionBoxUITests;
+			productReference = 2F016BB11D179C07009A7089 /* RWOptionBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F016B851D179C07009A7089 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "许宗城";
+				TargetAttributes = {
+					2F016B8C1D179C07009A7089 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					2F016BA51D179C07009A7089 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2F016B8C1D179C07009A7089;
+					};
+					2F016BB01D179C07009A7089 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2F016B8C1D179C07009A7089;
+					};
+				};
+			};
+			buildConfigurationList = 2F016B881D179C07009A7089 /* Build configuration list for PBXProject "RWOptionBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F016B841D179C06009A7089;
+			productRefGroup = 2F016B8E1D179C07009A7089 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F016B8C1D179C07009A7089 /* RWOptionBox */,
+				2F016BA51D179C07009A7089 /* RWOptionBoxTests */,
+				2F016BB01D179C07009A7089 /* RWOptionBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F016B8B1D179C07009A7089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F016BA01D179C07009A7089 /* LaunchScreen.storyboard in Resources */,
+				2F016B9D1D179C07009A7089 /* Assets.xcassets in Resources */,
+				2F016B9B1D179C07009A7089 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F016BA41D179C07009A7089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F016BAF1D179C07009A7089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F016B891D179C07009A7089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F016B981D179C07009A7089 /* ViewController.m in Sources */,
+				2F016B951D179C07009A7089 /* AppDelegate.m in Sources */,
+				2F016B921D179C07009A7089 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F016BA21D179C07009A7089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F016BAB1D179C07009A7089 /* RWOptionBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F016BAD1D179C07009A7089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F016BB61D179C07009A7089 /* RWOptionBoxUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F016BA81D179C07009A7089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F016B8C1D179C07009A7089 /* RWOptionBox */;
+			targetProxy = 2F016BA71D179C07009A7089 /* PBXContainerItemProxy */;
+		};
+		2F016BB31D179C07009A7089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F016B8C1D179C07009A7089 /* RWOptionBox */;
+			targetProxy = 2F016BB21D179C07009A7089 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F016B991D179C07009A7089 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F016B9A1D179C07009A7089 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F016B9E1D179C07009A7089 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F016B9F1D179C07009A7089 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F016BB81D179C07009A7089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F016BB91D179C07009A7089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F016BBB1D179C07009A7089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RWOptionBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wkidt.RWOptionBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F016BBC1D179C07009A7089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RWOptionBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wkidt.RWOptionBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F016BBE1D179C07009A7089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RWOptionBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wkidt.RWOptionBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RWOptionBox.app/RWOptionBox";
+			};
+			name = Debug;
+		};
+		2F016BBF1D179C07009A7089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RWOptionBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wkidt.RWOptionBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RWOptionBox.app/RWOptionBox";
+			};
+			name = Release;
+		};
+		2F016BC11D179C07009A7089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RWOptionBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wkidt.RWOptionBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RWOptionBox;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2F016BC21D179C07009A7089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RWOptionBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wkidt.RWOptionBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RWOptionBox;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F016B881D179C07009A7089 /* Build configuration list for PBXProject "RWOptionBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F016BB81D179C07009A7089 /* Debug */,
+				2F016BB91D179C07009A7089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F016BBA1D179C07009A7089 /* Build configuration list for PBXNativeTarget "RWOptionBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F016BBB1D179C07009A7089 /* Debug */,
+				2F016BBC1D179C07009A7089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F016BBD1D179C07009A7089 /* Build configuration list for PBXNativeTarget "RWOptionBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F016BBE1D179C07009A7089 /* Debug */,
+				2F016BBF1D179C07009A7089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F016BC01D179C07009A7089 /* Build configuration list for PBXNativeTarget "RWOptionBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F016BC11D179C07009A7089 /* Debug */,
+				2F016BC21D179C07009A7089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F016B851D179C07009A7089 /* Project object */;
+}
