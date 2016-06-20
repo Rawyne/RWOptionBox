@@ -15,6 +15,10 @@
 		2F016BA01D179C07009A7089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F016B9E1D179C07009A7089 /* LaunchScreen.storyboard */; };
 		2F016BAB1D179C07009A7089 /* RWOptionBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F016BAA1D179C07009A7089 /* RWOptionBoxTests.m */; };
 		2F016BB61D179C07009A7089 /* RWOptionBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F016BB51D179C07009A7089 /* RWOptionBoxUITests.m */; };
+		2F016BC61D179C6B009A7089 /* RWOptionBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F016BC51D179C6B009A7089 /* RWOptionBox.m */; };
+		2F016BCA1D179C8B009A7089 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F016BC71D179C8B009A7089 /* add.png */; };
+		2F016BCB1D179C8B009A7089 /* add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F016BC81D179C8B009A7089 /* add@2x.png */; };
+		2F016BCC1D179C8B009A7089 /* add@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F016BC91D179C8B009A7089 /* add@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,11 @@
 		2F016BB11D179C07009A7089 /* RWOptionBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RWOptionBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F016BB51D179C07009A7089 /* RWOptionBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWOptionBoxUITests.m; sourceTree = "<group>"; };
 		2F016BB71D179C07009A7089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F016BC41D179C6B009A7089 /* RWOptionBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWOptionBox.h; sourceTree = "<group>"; };
+		2F016BC51D179C6B009A7089 /* RWOptionBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWOptionBox.m; sourceTree = "<group>"; };
+		2F016BC71D179C8B009A7089 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		2F016BC81D179C8B009A7089 /* add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add@2x.png"; sourceTree = "<group>"; };
+		2F016BC91D179C8B009A7089 /* add@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +110,15 @@
 		2F016B8F1D179C07009A7089 /* RWOptionBox */ = {
 			isa = PBXGroup;
 			children = (
+				2F016BC31D179C6B009A7089 /* RWOptionBox */,
 				2F016B931D179C07009A7089 /* AppDelegate.h */,
 				2F016B941D179C07009A7089 /* AppDelegate.m */,
 				2F016B961D179C07009A7089 /* ViewController.h */,
 				2F016B971D179C07009A7089 /* ViewController.m */,
 				2F016B991D179C07009A7089 /* Main.storyboard */,
+				2F016BC71D179C8B009A7089 /* add.png */,
+				2F016BC81D179C8B009A7089 /* add@2x.png */,
+				2F016BC91D179C8B009A7089 /* add@3x.png */,
 				2F016B9C1D179C07009A7089 /* Assets.xcassets */,
 				2F016B9E1D179C07009A7089 /* LaunchScreen.storyboard */,
 				2F016BA11D179C07009A7089 /* Info.plist */,
@@ -138,6 +151,15 @@
 				2F016BB71D179C07009A7089 /* Info.plist */,
 			);
 			path = RWOptionBoxUITests;
+			sourceTree = "<group>";
+		};
+		2F016BC31D179C6B009A7089 /* RWOptionBox */ = {
+			isa = PBXGroup;
+			children = (
+				2F016BC41D179C6B009A7089 /* RWOptionBox.h */,
+				2F016BC51D179C6B009A7089 /* RWOptionBox.m */,
+			);
+			path = RWOptionBox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F016BA01D179C07009A7089 /* LaunchScreen.storyboard in Resources */,
+				2F016BCB1D179C8B009A7089 /* add@2x.png in Resources */,
 				2F016B9D1D179C07009A7089 /* Assets.xcassets in Resources */,
+				2F016BCC1D179C8B009A7089 /* add@3x.png in Resources */,
 				2F016B9B1D179C07009A7089 /* Main.storyboard in Resources */,
+				2F016BCA1D179C8B009A7089 /* add.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +298,7 @@
 				2F016B981D179C07009A7089 /* ViewController.m in Sources */,
 				2F016B951D179C07009A7089 /* AppDelegate.m in Sources */,
 				2F016B921D179C07009A7089 /* main.m in Sources */,
+				2F016BC61D179C6B009A7089 /* RWOptionBox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
